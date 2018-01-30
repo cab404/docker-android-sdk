@@ -7,6 +7,5 @@ RUN sdkmanager \
 ### LIST PACKAGES TO INSTALL HERE ###
     'platforms;android-'$SDK_VERSION \
     'platform-tools' \
-    'add-ons;addon-google_apis-google-24' \
     'build-tools;'$TOOLS_VERSION \
 ;
