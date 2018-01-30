@@ -26,4 +26,5 @@ RUN \
 RUN apt-get remove -y unzip wget;
 RUN apt-get autoclean
 
-ONBUILD yes | sdkmanager --licenses
+ONBUILD RUN yes | sdkmanager --update
+ONBUILD RUN yes | sdkmanager --licenses
